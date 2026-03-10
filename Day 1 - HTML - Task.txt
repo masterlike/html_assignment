@@ -1,0 +1,42 @@
+Day 1 - HTML - Task
+
+1)Learn what HTML is, its history, and why it is used ?
+
+HTML (HyperText Markup Language) is the basic language used to create web pages. It helps define the layout and structure of information on a web page. HTML was developed by Tim Berners-Lee in 1991 to make sharing information on the internet easier. It is mainly used to build the structure of websites and works together with CSS and JavaScript to create complete web applications.
+
+2) Understand <!DOCTYPE>, <html>, <head>, <body>. Create a simple HTML page?
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple HTML Page</title>
+</head>
+
+<body>
+
+<div>
+<h1>Welcome to My Web Page</h1>
+<h2>About This Page</h2>
+<p>This is a simple HTML page.</p>
+</div>
+
+<div>
+<h2>Visit a Website</h2>
+<a href="https://www.google.com">Go to Google</a>
+</div>
+
+</body>
+</html>
+
+3) Explore the root element <html>. Learn how it wraps the entire document ?
+
+The <html> tag is the root element of an HTML document. It wraps the entire webpage and contains all other elements such as the <head> and <body>. Everything written in the HTML file must be placed inside the <html> tag, which helps the browser understand the structure of the webpage.
+
+4) Learn about container elements like <div>, <section>. Practice grouping content ?
+
+Both <div> and <section> are used to group content. The <div> tag is a general container, while <section> gives a meaningful structure to a part of the webpage. It mainly helps developers understand the purpose of that content.
+
+
+<div> → generic container and  it is mainly used for layout or styling (no specific meaning)
+
+<section> → semantic section of content

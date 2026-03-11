@@ -1,0 +1,86 @@
+1)Understand the difference between block-level and inline elements
+
+ Practice examples with <div>, <p> (block) and <span>, <a> (inline)?
+
+Block-level elements like <div> or <p> start on a new line and take the full width of the page. They are used for bigger sections of content.
+
+Inline elements like <span> or <a> stay in the same line and only take as much space as their content. They are used for styling small parts of text.
+
+example 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My College</title>
+</head>
+<body>
+
+    <div style="border: solid; background-color: lightblue;">
+        <h1>SKP Engineering College</h1>
+    </div>
+
+    <p style="border: solid; background-color: lightgreen;">
+        Welcome to our college website. We offer many courses for students.
+    </p>
+
+    <p>
+        Our college provides quality education in 
+        <span style="border: solid; background-color: yellow;">Engineering and Technology</span>.
+        Visit the 
+        <a href="https://www.skpengg.ac.in/" style="border: solid; background-color: orange;">College Website</a>
+        for more details.
+    </p>
+
+</body>
+</html>
+
+In this example:
+
+<div> and <p> are block elements
+
+<span> and <a> are inline elements
+
+
+2)Learn and practice basic tags: headings <h1>–<h6>, paragraph <p>, division <div>, and inline <span>. Create a sample page using them?
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Cricket Team</title>
+</head>
+<body>
+
+    <div style="border: solid; background-color: blue;">
+        
+        <h1 style="color: white;">India Cricket Team</h1>
+        <h2 style="color: yellow;">T20 World Cup Achievements</h2>
+  
+        <p style="border: solid; background-color: lightgreen;">
+            The India cricket team won the T20 World Cup multiple times.
+        </p>
+        
+        <p style="border: solid; background-color: lightgreen;">
+            Famous Indian players include 
+            <span style="border: solid; background-color: yellow;">Virat Kohli</span>, 
+            <span style="border: solid; background-color: yellow;">Rohit Sharma</span>, and 
+            <span style="border: solid; background-color: yellow;">Hardik Pandya</span>.
+            You can see the full team list on the 
+            <a href="https://www.bcci.tv/" style="border: solid; background-color: lightblue;">BCCI official website</a>.
+        </p>
+        
+        <p style="border: solid; background-color: lightgreen;">
+            India won the ICC T20 Cricket World Cup in 2007, 2024, and 2026.
+        </p>
+        
+        <h3 style="color: yellow;">Team Spirit & Achievements</h3>
+        <p style="border: solid; background-color: lightgreen;">
+            The team has always shown excellent teamwork and sportsmanship on the field.
+        </p>
+        
+    </div>
+
+</body>
+</html>
+

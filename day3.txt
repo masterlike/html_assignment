@@ -1,0 +1,67 @@
+1)Learn what semantic tags are and why they are important for SEO & accessibility. Compare semantic vs non-semantic tags.
+
+In HTML, semantic tags are elements that describe the purpose of the content inside them. They help developers, browsers, and search engines understand the structure of a webpage.
+
+For example:
+
+<header> - represents the top part of the webpage .
+
+<main> → represents the main content of the page.
+
+<section> - represents a group of related content.
+
+<article> - represents independent content like a blog or news.
+
+<aside> - represents side content like ads or extra information.
+
+<footer> - represents the bottom part of the page 
+
+SEO (Search Engine Optimization)
+Semantic tags help search engines understand the structure and content of the webpage, which improves website ranking.
+
+Accessibility
+Semantic tags help screen readers and assistive technologies understand the webpage structure, making it easier for people with disabilities to navigate the site
+
+difference between semantic vs non semantic tags
+
+Semantic tags is give meaning to content and Improve SEO and accessibility
+Example: <header>, <footer>, <section>
+
+
+non semantic tags are do not describe the content and Used mainly for styling or grouping
+Example: <div>, <span>
+
+2) Practice creating a webpage with a header and footer. Add title, logo, and footer info.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sports Shop</title>
+</head>
+
+<body>
+
+<header style="border: solid; background-color: lightblue;">
+<h1>Pro Sports Shop</h1>
+
+
+<img src="OIP.webp" alt="Sports Shop Logo" width="120">
+
+<p>Your one stop destination for sports equipment</p>
+</header>
+
+<main style="border: solid; background-color: lightgreen;">
+<p>Welcome to our sports shop website.</p>
+<p>We sell cricket bats, footballs, sports shoes, and fitness equipment.</p>
+</main>
+
+<footer style="border: solid; background-color: lightgray;">
+<p>Contact: prosportsshop@email.com</p>
+<p>Phone: 1234567890</p>
+<p>© 2026 Pro Sports Shop</p>
+</footer>
+
+</body>
+</html>

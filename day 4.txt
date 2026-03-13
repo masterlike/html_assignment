@@ -1,0 +1,139 @@
+1)Learn the difference between <b> (bold styling) and <strong> (semantic importance)?
+
+<b> is used to make text bold only for visual styling.
+<strong> makes text bold and also indicates important meaning.
+Search engines and screen readers treat <strong> as important content.
+
+<p>This is a <b>great cricket shot</b> played by the batsman.</p>
+
+<p>This is a <strong>very important match</strong> for the Indian team.</p>
+
+2) Understand <i> (italic styling) vs <em> (emphasis). Use them in a paragraph ?
+
+<i> tag is used to display text in italic style.
+It is mainly used for visual formatting.
+<em> tag also shows italic text but adds emphasis to the sentence.
+Screen readers give stress to emphasized words when reading.
+
+<p>I like watching <i>cricket matches</i> because they are exciting.</p>
+
+<p>I <em>really enjoy</em> watching T20 cricket.</p>
+
+3) Practice underlining text with <u>, highlighting with <mark>, and making side notes with <small> ?
+
+<u> tag is used to underline text.
+<mark> tag highlights text with a yellow background.
+<small> tag displays text in a smaller font size.
+These tags are useful for notes, highlights, and extra information.
+
+
+<p>This is an <u>amazing cover drive</u> by the batsman.</p>
+
+<p>Please watch the <mark>last over highlight</mark>.</p>
+
+<p>Match will start at 7 PM <small>(IST)</small></p>
+
+
+4) Create hyperlinks using <a>. Add external links, internal links, and “back to top” links?
+
+
+The <a> tag is used to create hyperlinks in HTML.It allows users to navigate to other pages or websites.Links can be
+external, internal, or navigation links.For example, users can visit cricket websites or return to the top of the page.
+
+<h1 id="top">Cricket Updates</h1>
+<a href="https://www.espncricinfo.com">Visit Cricinfo</a>
+<br><br>
+<a href="players.html">View Players</a>
+<br><br>
+<p>Latest cricket news and scores.</p>
+<a href="#top">Back to Top</a>
+
+5) Learn how <button> works inside forms and as clickable UI elements. Practice adding button text and attributes?
+
+The <button> tag is used to create clickable buttons.Buttons can perform actions like submitting forms.They can also reset form data or trigger functions.
+Buttons are commonly used in polls, forms, and applications.
+
+<button>Watch Highlights</button>
+
+<button type="submit">Submit Vote</button>
+
+<button type="reset">Reset</button>
+
+
+6)Explore different input types (text, password, email, checkbox, radio). Build a mini form ?
+
+Input elements are used to collect information from users.Different types include text, email, password, radio, and checkbox.Each input type is used for a specific kind of data.
+These inputs help create forms like registration forms.
+
+<form>
+Name:<input type="text">
+<br><br>
+Email:<input type="email">
+<br><br>
+Password:<input type="password">
+<br><br>
+Favorite Format:
+<input type="radio" name="format"> Test
+<input type="radio" name="format"> ODI
+<input type="radio" name="format"> T20
+<br><br>
+Skills:<input type="checkbox"> Batting
+<input type="checkbox"> Bowling
+</form>
+
+
+
+7.Learn how to use <textarea> for multi-line input. Practice making a feedback form.?
+
+<textarea> tag is used for multi-line text input.It allows users to write long messages or comments.It is commonly used in feedback and contact forms.
+Users can type multiple lines of text inside it.
+
+<form>
+Your Name:<input type="text">
+<br><br>
+Your Opinion:
+<br>
+<textarea ></textarea>
+<br><br>
+<button type="submit">Submit</button>
+</form>
+
+8. Combine formatting and interactive tags to create a styled feedback form (with bold labels, highlighted text, inputs, and buttons).?
+
+A styled feedback form can be created by combining formatting and interactive HTML tags.Formatting tags like <strong> make labels bold and <mark> highlights important text.
+Interactive tags like <input>, <textarea>, and <button> collect user feedback.This helps create a simple and structured feedback form for users.
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cricket Match Feedback</title>
+</head>
+<body>
+<h2><mark>Cricket Match Feedback Form</mark></h2>
+<form>
+<strong>Fan Name:</strong>
+<input type="text" placeholder="Enter your name">
+<br><br>
+<strong>Email:</strong>
+<input type="email" placeholder="Enter your email">
+<br><br>
+<strong>Favorite Format:</strong>
+<input type="radio" name="format"> Test
+<input type="radio" name="format"> ODI
+<input type="radio" name="format"> T20
+<br><br>
+<strong>Favorite Skill:</strong>
+<input type="checkbox"> Batting
+<input type="checkbox"> Bowling
+<input type="checkbox"> Fielding
+<br><br>
+<strong>Your Feedback:</strong>
+<br>
+<textarea placeholder="Write your feedback here"></textarea>
+<br><br>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</form>
+<p><small>*Thank you for sharing your cricket match experience.</small></p>
+</body>
+</html>
